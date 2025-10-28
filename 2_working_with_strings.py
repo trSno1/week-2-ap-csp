@@ -31,15 +31,19 @@ name = "Jayden Aguilar"
 print("Is Uppercase?:", phrase.isupper())
 print("name:", name.islower())
 print("name", name.capitalize)
-print("Length of phrases:"len(phrase))
+print("Length of phrases":en(phrase))
 
 chicago_mayor = "Johnson"
+#index slicing
+print(chicago_mayor[0;4])
+print(chicago_mayor[4;])
+
 print(len(chicago_mayor)) 
 print(chicago_mayor[0])
 print(chicago_mayor[4])
 print(chicago_mayor[-1])
 
-
+phrase3 = "supercagifraglistic" 
 
 
 
