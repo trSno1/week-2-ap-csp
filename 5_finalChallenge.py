@@ -18,4 +18,9 @@
 
 # Cheers and good luck.
 
-print( question + question)
+question = "what is your name?"
+question2 = "What is your business`?"
+print( question)
+print( question2)
+question = input("what is your name?")
+
