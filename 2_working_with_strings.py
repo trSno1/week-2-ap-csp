@@ -31,12 +31,12 @@ name = "Jayden Aguilar"
 print("Is Uppercase?:", phrase.isupper())
 print("name:", name.islower())
 print("name", name.capitalize)
-print("Length of phrases":en(phrase))
+print("Length of phrases",len(phrase))
 
 chicago_mayor = "Johnson"
 #index slicing
-print(chicago_mayor[0;4])
-print(chicago_mayor[4;])
+print(chicago_mayor[0:4])
+print(chicago_mayor[4:])
 
 print(len(chicago_mayor)) 
 print(chicago_mayor[0])
@@ -87,11 +87,11 @@ length_dec = len(declaration_of_independence)
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
 # # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+words = sentence.split()
+print("Split result:", words)
 
 # # .format(): Allows inserting values into strings using {}
 # name = "Marvin"
