@@ -19,8 +19,8 @@
 # Cheers and good luck.
 
 
-question = input("What is your name?")
+question = input("What is your name?, Make sure to add an s at the end!")
 question2 = input("What is your business?")
 print(question + question2)
 
-
+print ("Congratulations that is your new brand name!")
