@@ -35,7 +35,6 @@ question2 = input("what is your favorite color?")
 print(question + question2)
 
 num3 = int(input("number 3 please"))
-num4 = int(input("number 4 please"))
 print(num3 +num4)
 
 # ⚙️ Step 5: Final Challenge (combine it all)

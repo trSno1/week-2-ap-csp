@@ -18,9 +18,9 @@
 
 # Cheers and good luck.
 
-question = "what is your name?"
-question2 = "What is your business`?"
-print( question)
-print( question2)
-question = input("what is your name?")
+
+question = input("What is your name?")
+question2 = input("What is your business?")
+print(question + question2)
+
 
