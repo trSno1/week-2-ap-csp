@@ -97,7 +97,7 @@ print(f"You're learning {learn} today.")
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # Where are you from?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
-Location = input("Where are you from?")
+location = input("Where are you from?")
 print(f"You are from {location}")
 
 
@@ -107,11 +107,13 @@ print(f"You are from {location}")
 # What is your surname?
 # The code must be able to print the user's first and last name on the screen, separated by a space.
 first_name = input("What is your first name?")
-Last_name = input("What is your surname?")
-Print(f"Your name is {first_name} {last_name}")
+last_name = input("What is your surname?")
+print(f"Your name is {first_name} {last_name}")
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
+name = input("What is your first name?")
+color = input("What is your favorite color?")
+print(f"You are {name} and your favorite color is {color}.")
 
 
 
